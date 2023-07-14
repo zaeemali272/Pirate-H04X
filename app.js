@@ -2,7 +2,7 @@
 
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
-  ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle,.caret,.dropdown,.menu,.endding-line,a:visited,.menu-list,.navbar-title,.navbar-title-now,.menu li,.movie-list-item-img,.featured-content"
+  ".movie-column-h1,.movie-title,.logo img,.navbar,.navbar-li li,.toggle,.caret,.dropdown,.menu,.endding-line,a:visited,.menu-list,.navbar-title,.navbar-title-now,body,.movie-img:hover,.menu li,.movie-img,.movie-desc,.featured-content,.movie-button"
 );
 
 ball.addEventListener("click", () => {

@@ -25,9 +25,14 @@ body {
 
 }
 
+.navbar.active{
+    background-color: rgba(255, 255, 255, 0.315);
+}
+
 .logo img {
     width: 70px;
 }
+
 
 .navbar-li {
     width: 100%;
@@ -45,6 +50,10 @@ body {
 .navbar-li li {
     padding: 0px 20px;
     color: rgba(245, 245, 245, 0.904);
+}
+
+.navbar-li li.active{
+    color: #000000;
 }
 
 .navbar-li li:hover {
@@ -71,6 +80,7 @@ body {
     color: #fff;
 
 }
+
 
 .dropdown * {
     box-sizing: border-box;
@@ -106,6 +116,11 @@ body {
     border-right: 5px solid transparent;
     border-top: 6px solid #fff;
     transition: 0.5s;
+}
+
+.caret.active{
+    border-top: 6px solid #000000 ;
+    
 }
 
 .caret-rotate {
@@ -196,6 +211,15 @@ body {
     transition: 0.5s ease all;
 }
 
+.toggle.active{
+    background-color: #141414;
+}
+
+.toggle-ball.active{
+    background-color: white;
+    transform: translateX(-20px);
+}
+
 .featured-content {
     min-height: 100vh;
     width: 100%;
@@ -206,7 +230,8 @@ body {
     /* position: relative; */
 }
 
-#background-video {
+
+.background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -315,4 +340,39 @@ body {
     left: 50px;
     opacity: 0;
     transition: 1s all ease-in-out;
+}
+
+
+
+body.active{
+    background-color: #fff;
+}
+
+.menu.active {
+    background: #fff;
+}
+
+.movie-desc.active{
+    color: #000000;
+    
+}
+
+.movie-title.active{
+    color: #000000;
+}
+
+.movie-column-h1.active{
+    color: #000000;
+}
+
+.movie img.active{
+    box-shadow: 0px 0px 10px 4px #646464;
+}
+
+.movie img{
+    box-shadow: 0px 0px 6px 4px #0f0f0f;
+}
+
+.movie-button.active{
+    box-shadow: 0px 0px 4px 2px #646464;
 }
